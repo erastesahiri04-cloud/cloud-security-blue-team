@@ -2,7 +2,7 @@
 
 Merci de votre intérêt pour la sécurité de ce projet.
 
-Pour signaler une vulnérabilité de sécurité, merci d'envoyer un e‑mail à: erastesahiri04@.com avec:
+Pour signaler une vulnérabilité de sécurité, merci d'envoyer un e‑mail à: erastesahiri04@gmail.com avec:
 - Description courte
 - Étapes pour reproduire
 - Gravité approximative
