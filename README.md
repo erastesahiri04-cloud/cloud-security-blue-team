@@ -58,3 +58,11 @@ Je considère IAM, la journalisation, le monitoring et le contrôle des accès c
           |  (S3 Bucket)   |
           +----------------+
 
+User → identité
+
+Group → regroupe users
+
+Policy → définit permissions
+
+Service AWS → cible des actions
+
