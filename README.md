@@ -22,3 +22,39 @@ Le client est responsable de la sécurité dans le cloud, notamment la gestion d
 
 Mon security mindset est orienté Blue Team : je pars du principe que toute mauvaise configuration côté client peut devenir une faille de sécurité.
 Je considère IAM, la journalisation, le monitoring et le contrôle des accès comme des piliers essentiels pour prévenir, détecter et analyser les incidents sur AWS.
+
+## IAM Learning 
+– Jour 4
+
+### Ce que j'ai compris
+- Les policies AWS sont en JSON et ont des composants clairs : Version, Statement, Effect, Action, Resource
+- Effect “Allow” ou “Deny” détermine le droit
+- IAM est central pour la sécurité : mauvaise policy = faille
+- Même une permission “read-only” peut révéler des informations sensibles
+
+### Ce qui est encore flou
+- La syntaxe exacte de certaines actions avancées
+- L’application combinée de plusieurs policies sur un même user/role
+- L’usage de conditions complexes dans les policies
+
+          +----------------+
+          |    User1       |
+          +----------------+
+                 |
+                 v
+          +----------------+
+          |    Group1      |
+          +----------------+
+                 |
+                 v
+          +----------------+
+          |   Policy1      |
+          | (s3:ListBucket)|
+          +----------------+
+                 |
+                 v
+          +----------------+
+          | AWS Service    |
+          |  (S3 Bucket)   |
+          +----------------+
+
