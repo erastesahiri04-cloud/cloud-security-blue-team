@@ -32,11 +32,6 @@ Je considère IAM, la journalisation, le monitoring et le contrôle des accès c
 - IAM est central pour la sécurité : mauvaise policy = faille
 - Même une permission “read-only” peut révéler des informations sensibles
 
-### Ce qui est encore flou
-- La syntaxe exacte de certaines actions avancées
-- L’application combinée de plusieurs policies sur un même user/role
-- L’usage de conditions complexes dans les policies
-
           +----------------+
           |    User1       |
           +----------------+
@@ -65,4 +60,9 @@ Group → regroupe users
 Policy → définit permissions
 
 Service AWS → cible des actions
+
+### Ce qui est encore flou
+- La syntaxe exacte de certaines actions avancées
+- L’application combinée de plusieurs policies sur un même user/role
+- L’usage de conditions complexes dans les policies
 
