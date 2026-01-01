@@ -10,8 +10,8 @@
 - Alerte e-mail configurée si dépassement
 
 ## 3. IAM Users
-- Création d’un utilisateur IAM dédié pour les labs
-- Attribution des permissions minimales nécessaires (principe du moindre privilège)
+- Création d’un utilisateur IAM  dédié pour les labs 
+- Attribution des permissions minimales nécessaires (principe du moindre privilège) ( pas de permission attribué au debut comme ça zero danger )
 - MFA activée pour tous les utilisateurs IAM sensibles
 
 ## 4. Suivi et documentation
