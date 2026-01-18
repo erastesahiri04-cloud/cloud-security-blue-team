@@ -17,3 +17,15 @@
 ## 4. Suivi et documentation
 - Tous les changements de configuration sont documentés dans ce fichier
 - Les prochaines étapes : activer CloudTrail, CloudWatch et VPC logging
+
+## NB: Pourquoi ne jamais utiliser le root
+Le compte root possède tous les droits sans restriction.
+En cas de compromission, un attaquant peut détruire ou détourner
+l’ensemble du compte AWS sans possibilité de limitation.
+De plus, le root ne permet pas une gestion fine des permissions
+ni une bonne traçabilité.
+
+Bonne pratique AWS : utiliser uniquement des utilisateurs IAM
+ou des rôles pour les actions quotidiennes.
+Le compte root est réservé aux actions exceptionnelles.
+
