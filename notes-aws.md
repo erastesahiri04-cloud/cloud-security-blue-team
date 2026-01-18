@@ -6,7 +6,7 @@
 - Adresse e-mail de contact confirmée
 
 ## 2. Budget et alertes
-- Budget mensuel : 15.6$  
+- Budget mensuel : 15.6$(peut varier selon le besoin)  
 - Alerte e-mail configurée si dépassement
 
 ## 3. IAM Users
