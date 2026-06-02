@@ -12,7 +12,7 @@ Ce repository documente mon parcours pratique pour apprendre et maîtriser AWS, 
 - Outils de monitoring et d’alerting (à détailler plus tard)
 
 ## Vision
-D'ici fin février, je veux être capable de sécuriser un environnement AWS, détecter et analyser les incidents de sécurité, et disposer d'un portfolio complet de labs pratiques pour mon avenir professionnel en informatique.
+D'ici fin juin, je veux être capable de sécuriser un environnement AWS, détecter et analyser les incidents de sécurité, et disposer d'un portfolio complet de labs pratiques pour mon avenir professionnel en informatique.
 
 ## Security mindset & Shared Responsibility
 
